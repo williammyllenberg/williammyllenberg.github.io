@@ -10,7 +10,14 @@
 		"dates": "2023",
 		"role": "Visa att du bryr dig - en föreställning för att uppmärksamma psykisk ohälsa bland unga 2023",
 		"company": "Projekt",
-		"description": "<ul class='underline'><li>* <a href='https://www.hd.se/2022-10-20/de-dansar-for-att-visa-att-de-bryr-sig/' target='_blank'>Helsingbords Dagblad – De dansar för att visa att de bryr sig</a></li><li>* <a href='https://sverigesradio.se/artikel/amanda-om-forestallningen-jag-vill-att-ungdomar-ska-vaga-saga-att-de-mar-daligt' target='_blank'>Sveriges Radio – Amanda om föreställningen: 'Jag vill att ungdomar ska våga säga att de mår dåligt'</a></li></ul>",
+		"description": "<ul style='text-decoration: underline; padding: 8px; list-style: disc;'><li><a href='https://www.hd.se/2022-10-20/de-dansar-for-att-visa-att-de-bryr-sig/' target='_blank'>Helsingbords Dagblad – De dansar för att visa att de bryr sig</a></li><li><a href='https://sverigesradio.se/artikel/amanda-om-forestallningen-jag-vill-att-ungdomar-ska-vaga-saga-att-de-mar-daligt' target='_blank'>Sveriges Radio – Amanda om föreställningen: 'Jag vill att ungdomar ska våga säga att de mår dåligt'</a></li></ul>",
+		"logo": "/assets/images/icons/project-management.png"
+	},
+	{
+		"dates": "2023 - 2024",
+		"role": "Danseuddannelsen – by Sara Gaardbo – Köpenhamn",
+		"company": "Utbildning",
+		"description": "<p style='padding: 16px 0px;'><a href='https://www.danseuddannelsen.dk/' target='_blank'>Danseuddannelsen.dk</a></p>",
 		"logo": "/assets/images/icons/project-management.png"
 	},
 	{

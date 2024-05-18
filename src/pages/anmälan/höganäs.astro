@@ -1,15 +1,17 @@
 ---
+import Notice from "../../components/notice/notice.astro";
 import PageHeading from "../../components/page-heading.astro";
-import PostsLoop from "../../components/posts-loop.astro";
 import Layout from "../../layouts/main.astro";
+import danceGroups from "../../collections/dance/hgroups.json";
 ---
 
-<Layout title="Anmälan - Dans i Höganäs">
+<Layout title="Anmälan - Dans i Höganäs / Viken">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
-    <PageHeading title="Anmälan - Dans i Höganäs" />
+    <PageHeading title="Anmälan - Dans i Höganäs / Viken" />
+    <p><span class="text-red-600"><strong>OBS</span></strong>: Anmälan till Viken görs...</p>
 
-    <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
-      <PostsLoop count="10" />
+    <div class="z-50 flex flex-col items-stretch w-full gap-5">
+      <Notice options={danceGroups} />
     </div>
   </section>
 </Layout>

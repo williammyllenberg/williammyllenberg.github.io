@@ -1,0 +1,31 @@
+---
+const { one, two, three } = Astro.props;
+---
+
+<div
+  class="mx-auto mt-6 max-w-2xl sm:px-6 md:grid md:max-w-7xl md:grid-cols-2 md:gap-x-1 md:px-2"
+>
+  <div class="aspect-h-4 aspect-w-3 overflow-hidden lg:block">
+    <img
+      src={one}
+      alt="Amanda Mattsson"
+      class="h-full w-full object-cover object-center"
+    />
+  </div>
+  <div class="md:grid md:grid-cols-1 md:gap-y-1">
+    <div class="md:flex aspect-h-2 aspect-w-3 overflow-hidden">
+      <img
+        src={two}
+        alt="Dancers"
+        class="h-full w-full object-cover object-center"
+      />
+    </div>
+    <div class="aspect-h-2 aspect-w-3 overflow-hidden">
+      <img
+        src={three}
+        alt="Dancers"
+        class="h-full w-full object-cover object-center"
+      />
+    </div>
+  </div>
+</div>
