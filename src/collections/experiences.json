@@ -1,0 +1,23 @@
+[
+	{
+		"dates": "2020",
+		"role": "Skånes idrottsledarstipendium 2020",
+		"company": "Stipendie",
+		"description": "",
+		"logo": "/assets/images/icons/mortarboard.png"
+	},
+	{
+		"dates": "2023",
+		"role": "Visa att du bryr dig - en föreställning för att uppmärksamma psykisk ohälsa bland unga 2023",
+		"company": "Projekt",
+		"description": "<ul class='underline'><li>* <a href='https://www.hd.se/2022-10-20/de-dansar-for-att-visa-att-de-bryr-sig/' target='_blank'>Helsingbords Dagblad – De dansar för att visa att de bryr sig</a></li><li>* <a href='https://sverigesradio.se/artikel/amanda-om-forestallningen-jag-vill-att-ungdomar-ska-vaga-saga-att-de-mar-daligt' target='_blank'>Sveriges Radio – Amanda om föreställningen: 'Jag vill att ungdomar ska våga säga att de mår dåligt'</a></li></ul>",
+		"logo": "/assets/images/icons/project-management.png"
+	},
+	{
+		"dates": "2024",
+		"role": "Lions club i Ängelholms ungdomsledarstipendium 2024",
+		"company": "Stipendie",
+		"description": "",
+		"logo": "/assets/images/icons/mortarboard.png"
+	}
+]

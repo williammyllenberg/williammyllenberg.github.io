@@ -1,0 +1,93 @@
+---
+import experiences from "../collections/experiences.json";
+import AboutExperience from "../components/about-experience.astro";
+import PageHeading from "../components/page-heading.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="Om Moving Art Dance School">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="Om Moving Art Dance School"
+      description="Moving Art Dance School är en dansskola som startades sommaren 2024. Hos Moving Art står uttrycket, rörelseglädjen och gemenskapen i fokus."
+      image="/assets/images/icons/moving_art_logo_dark.png"
+    />
+    <br />
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Jag som driver Moving Art heter Amanda Mattsson och är 28 år gammal. Jag
+      älskar dans och möten med människor och jag anser att alla kan och mår bra
+      av att dansa om de får göra det efter sina egna förutsättningar och
+      önskningar.
+    </p>
+    <br />
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Mitt första möte med dansen var genom gymnastikens värld som truppgymnast.
+      När jag var 9 år började jag dansa på Dansfabriken i Ängelholm och sedan
+      dess har jag tagit dansklasser på många ställen runt om i Skåne, bland
+      annat på Malmö Dansakademi och på Danshuset i Helsingborg. 2023/24
+      utbildade jag mig vidare i dans på en ettårig dansutbildning,
+      Danseuddanelsen i Köpenhamn.
+    </p>
+    <br />
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Jag har arbetat som dansledare i drygt 10 år och undervisat allt från barn
+      till seniorer i olika stilar såsom jazz, balett och street. Jag har även
+      undervisat personer med olika funktionsvariationer och psykisk ohälsa. Som
+      ledare försöker jag att möta och se varje individ som kommer och dansar
+      hos mig. Min önskan är att alla ska känna sig välkomna och sedda.
+    </p>
+    <br />
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Hoppas att vi ses i danssalen! Tveka inte att höra av dig om du har frågor
+      eller funderingar. Mvh Amanda Mattsson
+    </p>
+
+    <!-- <img
+      src="/assets/images/about.jpg"
+      class="relative z-30 w-full my-10 rounded-xl"
+    /> -->
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Stipendier och projekt
+    </h2>
+    <div class="px-5 py-10">
+      {
+        experiences.map((experience, loop) => {
+          return (
+            <>
+              {loop == 0 || loop == 1 ? (
+                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+                  <AboutExperience
+                    dates={experience.dates}
+                    role={experience.role}
+                    company={experience.company}
+                    description={experience.description}
+                    logo={experience.logo}
+                  />
+                </div>
+              ) : (
+                <AboutExperience
+                  dates={experience.dates}
+                  role={experience.role}
+                  company={experience.company}
+                  description={experience.description}
+                  logo={experience.logo}
+                />
+              )}
+            </>
+          );
+        })
+      }
+    </div>
+  </section>
+</Layout>

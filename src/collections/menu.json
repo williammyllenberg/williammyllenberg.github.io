@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Hem",
+		"url": "/"
+	},
+	{
+		"name": "Om",
+		"url": "/om-oss"
+	},
+	{
+		"name": "Kurser",
+		"url": "/kurser"
+	},
+	{
+		"name": "Anmälan Åstorp",
+		"url": "/anmälan/åstorp"
+	},
+	{
+		"name": "Anmälan Höganäs",
+		"url": "/anmälan/höganäs"
+	},
+	{
+		"name": "Kontakt",
+		"url": "/kontakt"
+	}
+]
