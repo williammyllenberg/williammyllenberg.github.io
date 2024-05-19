@@ -1,0 +1,30 @@
+---
+const { style } = Astro.props;
+---
+
+<div
+  class="relative border border-transparent border-dashed p-7 group rounded-2xl"
+>
+  <div
+    class="absolute inset-0 z-20 w-full h-full duration-300 ease-out bg-white border border-dashed dark:bg-neutral-950 rounded-2xl border-neutral-300 dark:border-neutral-600"
+  >
+  </div>
+  <div
+    class="absolute inset-0 z-10 w-full h-full duration-300 ease-out border border-dashed rounded-2xl border-neutral-300 dark:border-neutral-600"
+  >
+  </div>
+  <div
+    class="relative z-30 duration-300 ease-out"
+  >
+    <h2 class="flex items-center mb-3">
+      <span
+        class="text-xl font-bold leading-tight tracking-tight sm:text-2xl dark:text-neutral-100"
+      >
+        {style.title}
+      </span>
+    </h2>
+    <p class="text-neutral-600 dark:text-neutral-400">
+      <span set:html={style.description}></span>
+    </p>
+  </div>
+</div>

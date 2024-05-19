@@ -1,7 +1,9 @@
 ---
 import PageHeading from "../components/page-heading.astro";
-import PostsLoop from "../components/posts-loop.astro";
 import Layout from "../layouts/main.astro";
+import styles from '../collections/dance/styles.json'
+import Post from "../components/post.astro";
+import DanceStyle from "../components/courses/dance-style.astro";
 ---
 
 <Layout title="Kurser - Dans i Höganäs & Åstorp">
@@ -12,7 +14,12 @@ import Layout from "../layouts/main.astro";
     />
 
     <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
-      <PostsLoop count="10" />
+      <DanceStyle style={styles.mixedStyles_children} />
+      <DanceStyle style={styles.streetjazz} />
+      <DanceStyle style={styles.seniordance} />
+      <DanceStyle style={styles.contemporary} />
+      <DanceStyle style={styles.beginner} />
+      <DanceStyle style={styles.continuation} />
     </div>
   </section>
 </Layout>

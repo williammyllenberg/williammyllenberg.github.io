@@ -1,0 +1,38 @@
+{
+    "mixedStyles_children": {
+        "title": "Blandade stilar 4-6 år",
+        "link": "",
+        "dateFormatted": "",
+        "description": "Här testar vi på olika dansstilar i en lekfull miljö. Vi kör uppvärmningsdanser, dansövningar över golvet, dansaktiviteter och lite koreografi.<br /><br />Jag önskar att föräldrar stannar kvar under lektionen utanför danssalen. Behöver barnet ha med sig en förälder in i danssalen för att känna sig trygg går det självklart bra men då är föräldern aktivt med och dansar med sitt barn. Detta är för att föräldrar som sitter inne i salen utan att delta kan uppfattas som publik och ge en otrygg känsla för resten av barn i gruppen."
+    },
+    "streetjazz": {
+        "title": "Streetjazz",
+        "link": "",
+        "dateFormatted": "",
+        "description": "I streetjazz blandar vi jazzteknikens kickar, piruetter och hopp med stilar under samlingsbegreppet street. Här får man 'the best of both world' med jazzen som skapats genom en fusion av afroamerikansk danskultur och klassisk balett tillsammans med streeten som utvecklats utanför dansstudion på gator och i andra sociala utrymmen. Streetjazzen håller ofta ett högt tempo och är full med attityd och känsla."
+    },
+    "seniordance": {
+        "title": "Seniordans",
+        "link": "",
+        "dateFormatted": "",
+        "description": "För dig som genom dansens rörelseglädje vill träna balans, styrka och koordination. Vi testar på olika stilar såsom jazzdans, streetdans och modern dans. Alla är välkomna oavsett förutsättningar."
+    },
+    "contemporary": {
+        "title": "Contemporary",
+        "link": "",
+        "dateFormatted": "",
+        "description": "Contemporary dans är en fri och kreativ dansstil med en teknisk bas. Tekniken har sitt ursprung i den klassiska baletten och jazzdansen. I contemporary jobbar man mycket med uttryck, musikalitet, floorwork och att utforska nya sätt att röra sin kropp på."
+    },
+    "beginner": {
+        "title": "Nybörjare (N)",
+        "link": "",
+        "dateFormatted": "",
+        "description": "För personer som inte har någon danserfarenhet/mycket lite danserfarenhet sedan tidigare."
+    },
+    "continuation": {
+        "title": "Fortsättning (F)",
+        "link": "",
+        "dateFormatted": "",
+        "description": "För personer som har danserfarenhet sedan tidigare och kan hålla ett högre inlärningstempo."
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "höganäs": {
+        "name": "Höganäs",
+        "color:": "green"
+    },
+    "åstorp": {
+        "name": "Åstorp",
+        "color:": "purple"
+    },
+    "viken": {
+        "name": "Viken",
+        "color:": "blue"
+    }
+}
