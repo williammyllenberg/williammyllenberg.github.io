@@ -1,14 +1,58 @@
 [
 	{
+		"name": "Vikenskolans Gymnastiksal (I samarbete med föreningen Vigör) Måndag 16:05-16:50 Streetjazz N/F 6-9 år",
+        "value": "Vikenskolans Gymnastiksal (I samarbete med föreningen Vigör) Måndag 16:05-16:50 Streetjazz N/F 6-9 år",
+		"shortName": "Streetjazz N/F 6-9 år (I samarbete med föreningen Vigör)",
+		"schedule": [
+			{
+				"day": "Måndag",
+				"from": "16:05",
+				"to": "16:50",
+				"location": "Vikenskolans Gymnastiksal"
+			}
+		],
+		"place": "Viken"
+	},
+	{
 		"name": "Mån 17:20-18:05 Blandade stilar 4-6 år – Kullagymnasiet",
-        "value": "Måndag 17:20-18:05 Blandade stilar 4-6 år – Kullagymnasiet"
+        "value": "Måndag 17:20-18:05 Blandade stilar 4-6 år – Kullagymnasiet",
+		"shortName": "Blandade stilar 4-6 år",
+		"schedule": [
+			{
+				"day": "Måndag",
+				"from": "17:20",
+				"to": "18:05",
+				"location": "Kullagymnasiet"
+			}
+		],
+		"place": "Höganäs"
 	},
 	{
 		"name": "Mån 18:10-19:00 Streetjazz N/F 10 år+ – Kullagymnasiet",
-        "value": "Måndag 18:10-19:00 Streetjazz N/F 10 år+ – Kullagymnasiet"
+        "value": "Måndag 18:10-19:00 Streetjazz N/F 10 år+ – Kullagymnasiet",
+		"shortName": "Streetjazz N/F 10 år+",
+		"schedule": [
+			{
+				"day": "Måndag",
+				"from": "18:10",
+				"to": "19:00",
+				"location": "Kullagymnasiet"
+			}
+		],
+		"place": "Höganäs"
 	},
 	{
 		"name": "Mån 19:00-20:00 Streetjazz N/F Vuxen – Kullagymnasiet",
-        "value": "Måndag 19:00-20:00 Streetjazz N/F Vuxen – Kullagymnasiet"
+        "value": "Måndag 19:00-20:00 Streetjazz N/F Vuxen – Kullagymnasiet",
+		"shortName": "Streetjazz N/F Vuxen",
+		"schedule": [
+			{
+				"day": "Måndag",
+				"from": "19:00",
+				"to": "20:00",
+				"location": "Kullagymnasiet"
+			}
+		],
+		"place": "Höganäs"
 	}
 ]

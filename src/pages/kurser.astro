@@ -1,18 +1,27 @@
 ---
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
-import styles from '../collections/dance/styles.json'
-import Post from "../components/post.astro";
+import styles from "../collections/dance/styles.json";
 import DanceStyle from "../components/courses/dance-style.astro";
+import Schedule from "../components/courses/schedule.astro";
 ---
 
 <Layout title="Kurser - Dans i Höganäs & Åstorp">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
-    <PageHeading
-      title="Kurser"
-      description=""
-    />
-
+    <PageHeading title="Schema & Kurser" description="" />
+    <div class="border-b border-gray-900/10 pb-12">
+      <p
+        class="text-2xl mb-2 font-semibold text-neutral-800 dark:text-neutral-200"
+      >
+        Schema
+      </p>
+      <Schedule />
+    </div>
+    <p
+      class="text-2xl mt-8 font-semibold text-neutral-800 dark:text-neutral-200"
+    >
+      Kurser
+    </p>
     <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
       <DanceStyle style={styles.mixedStyles_children} />
       <DanceStyle style={styles.streetjazz} />

@@ -1,0 +1,44 @@
+---
+import courses from "../../collections/dance/hgroups.json";
+import ScheduleDay from "./schedule-day.astro";
+import locationMap from "../../collections/schedule/location.json";
+
+const weekSchedule = courses.reduce(
+  (schedule, course) => {
+    const days = Object.keys(schedule);
+
+    const newSchedule = {
+      ...schedule,
+    };
+
+    for (let i = 0; i < days.length; i++) {
+      const day = days[i];
+      let newDay = schedule[day].slice();
+
+      const additionalDayItems = course.schedule
+        .filter((x) => x.day === day)
+        .map((courseItem) => ({
+          name: course.shortName,
+          time: `${courseItem.from} – ${courseItem.to}`,
+          location: courseItem.location,
+          color: locationMap[course.place].color,
+        }));
+
+      newDay = newDay.concat(additionalDayItems);
+
+      newSchedule[day] = newDay;
+    }
+
+    return newSchedule;
+  },
+  {
+    Måndag: [],
+    Onsdag: [],
+  },
+);
+---
+
+<div>
+  <ScheduleDay dayName="Måndag" items={weekSchedule.Måndag} />
+  <!-- <ScheduleDay dayName="Onsdag" items={weekSchedule.Onsdag} /> -->
+</div>

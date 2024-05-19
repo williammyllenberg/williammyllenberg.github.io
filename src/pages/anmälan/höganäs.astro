@@ -8,10 +8,10 @@ import danceGroups from "../../collections/dance/hgroups.json";
 <Layout title="Anmälan - Dans i Höganäs / Viken">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading title="Anmälan - Dans i Höganäs / Viken" />
-    <p><span class="text-red-600"><strong>OBS</span></strong>: Anmälan till Viken görs...</p>
+    <p><span class="text-red-600"><strong>OBS</span></strong>: Anmälan till dansen i Viken öppnar inom kort. Dansen i Viken görs i samarbete med föreningen Vigör.</p>
 
     <div class="z-50 flex flex-col items-stretch w-full gap-5">
-      <Notice options={danceGroups} />
+      <Notice options={danceGroups.filter(x => x.place === "Höganäs")} />
     </div>
   </section>
 </Layout>
