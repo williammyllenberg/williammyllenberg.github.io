@@ -6,11 +6,15 @@ const { one, two, three } = Astro.props;
   class="mx-auto mt-6 max-w-2xl sm:px-6 md:grid md:max-w-7xl md:grid-cols-2 md:gap-x-1 md:px-2"
 >
   <div class="aspect-h-4 aspect-w-3 overflow-hidden lg:block">
-    <img
-      src={one}
-      alt="Amanda Mattsson"
-      class="h-full w-full object-cover object-center"
-    />
+    <div class="relative h-full w-full object-cover object-center">
+      <img
+        src={one}
+        alt="Amanda Mattsson"
+      />
+      <p class="absolute text-sm text-white absolute bottom-0 left-1">
+        Ateljé Lena Photography
+      </p>
+    </div>
   </div>
   <div class="md:grid md:grid-cols-1 md:gap-y-1">
     <div class="md:flex aspect-h-2 aspect-w-3 overflow-hidden">
