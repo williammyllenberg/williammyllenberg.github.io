@@ -14,9 +14,9 @@
 		"place": "Viken"
 	},
 	{
-		"name": "Mån 17:20-18:05 Blandade stilar 4-6 år – Kullagymnasiet",
-        "value": "Måndag 17:20-18:05 Blandade stilar 4-6 år – Kullagymnasiet",
-		"shortName": "Blandade stilar 4-6 år",
+		"name": "Mån 17:20-18:05 Blandade stilar 4-5 år – Kullagymnasiet",
+        "value": "Måndag 17:20-18:05 Blandade stilar 4-5 år – Kullagymnasiet",
+		"shortName": "Blandade stilar 4-5 år",
 		"schedule": [
 			{
 				"day": "Måndag",
@@ -28,28 +28,42 @@
 		"place": "Höganäs"
 	},
 	{
-		"name": "Mån 18:10-19:00 Streetjazz N/F 10 år+ – Kullagymnasiet",
-        "value": "Måndag 18:10-19:00 Streetjazz N/F 10 år+ – Kullagymnasiet",
-		"shortName": "Streetjazz N/F 10 år+",
+		"name": "Mån 18:05-18:50 Streetjazz N/F 6-7 år – Kullagymnasiet",
+        "value": "Måndag 18:05-18:50 Streetjazz N/F 6-7 år – Kullagymnasiet",
+		"shortName": "Streetjazz N/F 6-7 år",
 		"schedule": [
 			{
 				"day": "Måndag",
-				"from": "18:10",
-				"to": "19:00",
+				"from": "18:05",
+				"to": "18:50",
 				"location": "Kullagymnasiet"
 			}
 		],
 		"place": "Höganäs"
 	},
 	{
-		"name": "Mån 19:00-20:00 Streetjazz N/F Vuxen – Kullagymnasiet",
-        "value": "Måndag 19:00-20:00 Streetjazz N/F Vuxen – Kullagymnasiet",
-		"shortName": "Streetjazz N/F Vuxen",
+		"name": "Mån 19:00-19:50 Streetjazz N/F 10 år+ – Kullagymnasiet",
+        "value": "Måndag 19:00-19:50 Streetjazz N/F 10 år+ – Kullagymnasiet",
+		"shortName": "Streetjazz N/F 10 år+",
 		"schedule": [
 			{
 				"day": "Måndag",
 				"from": "19:00",
-				"to": "20:00",
+				"to": "19:50",
+				"location": "Kullagymnasiet"
+			}
+		],
+		"place": "Höganäs"
+	},
+	{
+		"name": "Mån 1950:-20:50 Streetjazz N/F Vuxen – Kullagymnasiet",
+        "value": "Måndag 19:50-20:50 Streetjazz N/F Vuxen – Kullagymnasiet",
+		"shortName": "Streetjazz N/F Vuxen",
+		"schedule": [
+			{
+				"day": "Måndag",
+				"from": "19:50",
+				"to": "20:50",
 				"location": "Kullagymnasiet"
 			}
 		],
