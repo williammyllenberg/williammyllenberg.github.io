@@ -6,5 +6,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://movingartdance.se',
-	integrations: [tailwind(), sitemap()]
+	integrations: [tailwind(), sitemap({
+		filter: (page) => page !== 'https://movingartdance.se/anmald/'
+	})]
 });
