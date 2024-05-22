@@ -7,21 +7,40 @@ const { title, metaDescription = "" } = Astro.props;
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6F83C0Y3B"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Z6F83C0Y3B");
+    </script>
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <meta name="google-site-verification" content="t9oaumw-31bS_MlLxZbH7djno5PEoDOSuuamd37IO6s" />
-    {metaDescription && <meta name="description" lang="sv" content={metaDescription} />}
+    <meta
+      name="google-site-verification"
+      content="t9oaumw-31bS_MlLxZbH7djno5PEoDOSuuamd37IO6s"
+    />
+    {
+      metaDescription && (
+        <meta name="description" lang="sv" content={metaDescription} />
+      )
+    }
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
 
     <!-- Used to add dark mode right away, adding here prevents any flicker -->
     <script is:inline>
-      if (typeof Storage !== 'undefined') {
+      if (typeof Storage !== "undefined") {
         if (
-          localStorage.getItem('dark_mode') &&
-          localStorage.getItem('dark_mode') == 'true'
+          localStorage.getItem("dark_mode") &&
+          localStorage.getItem("dark_mode") == "true"
         ) {
-          document.documentElement.classList.add('dark')
+          document.documentElement.classList.add("dark");
         }
       }
     </script>
