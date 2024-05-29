@@ -68,5 +68,89 @@
 			}
 		],
 		"place": "Höganäs"
+	},
+	{
+		"name": "Ons 15:30-16:15 Seniordans ca 65 år+ Arena Åstorp C-hall",
+        "value": "Ons 15:30-16:15 Seniordans ca 65 år+ Arena Åstorp C-hall",
+		"shortName": "Seniordans ca 65 år+",
+		"schedule": [
+			{
+				"day": "Onsdag",
+				"from": "15:30",
+				"to": "16:15",
+				"location": "Arena Åstorp C-hall"
+			}
+		],
+		"place": "Åstorp"
+	},
+	{
+		"name": "Ons 16:30-17:10 Blandade stilar 4-5 år Arena Åstorp C-hall",
+        "value": "Ons 16:30-17:10 Blandade stilar 4-5 år Arena Åstorp C-hall",
+		"shortName": "Blandade stilar 4-5 år",
+		"schedule": [
+			{
+				"day": "Onsdag",
+				"from": "16:30",
+				"to": "17:10",
+				"location": "Arena Åstorp C-hall"
+			}
+		],
+		"place": "Åstorp"
+	},
+	{
+		"name": "Ons 17:10-17:55 Streetjazz 6-8 år N/F Arena Åstorp C-hall",
+        "value": "Ons 17:10-17:55 Streetjazz 6-8 år N/F Arena Åstorp C-hall",
+		"shortName": "Streetjazz 6-8 år N/F",
+		"schedule": [
+			{
+				"day": "Onsdag",
+				"from": "17:10",
+				"to": "17:55",
+				"location": "Arena Åstorp C-hall"
+			}
+		],
+		"place": "Åstorp"
+	},
+	{
+		"name": "Ons 18:00-19:00 Streetjazz 9-13 år N/F Arena Åstorp C-hall",
+        "value": "Ons 18:00-19:00 Streetjazz 9-13 år N/F Arena Åstorp C-hall",
+		"shortName": "Streetjazz 9-13 år N/F",
+		"schedule": [
+			{
+				"day": "Onsdag",
+				"from": "18:00",
+				"to": "19:00",
+				"location": "Arena Åstorp C-hall"
+			}
+		],
+		"place": "Åstorp"
+	},
+	{
+		"name": "Ons 19:00-20:00 Streetjazz vuxen ca 35 år+ N/F Arena Åstorp C-hall",
+        "value": "Ons 19:00-20:00 Streetjazz vuxen ca 35 år+ N/F Arena Åstorp C-hall",
+		"shortName": "Streetjazz vuxen ca 35 år+ N/F",
+		"schedule": [
+			{
+				"day": "Onsdag",
+				"from": "19:00",
+				"to": "20:00",
+				"location": "Arena Åstorp C-hall"
+			}
+		],
+		"place": "Åstorp"
+	},
+	{
+		"name": "Ons 20:00-21:00 Modern/contemporary 14 år+ Öppen nivå Arena Åstorp C-hall",
+        "value": "Ons 20:00-21:00 Modern/contemporary 14 år+ Öppen nivå Arena Åstorp C-hall",
+		"shortName": "Modern/contemporary 14 år+ Öppen nivå",
+		"schedule": [
+			{
+				"day": "Onsdag",
+				"from": "20:00",
+				"to": "21:00",
+				"location": "Arena Åstorp C-hall"
+			}
+		],
+		"place": "Åstorp"
 	}
 ]

@@ -3,7 +3,7 @@
         "title": "Blandade stilar 4-5 år",
         "link": "",
         "dateFormatted": "",
-        "description": "Här testar vi på olika dansstilar i en lekfull miljö. Vi kör uppvärmningsdanser, dansövningar över golvet, dansaktiviteter och lite koreografi.<br /><br />Jag önskar att föräldrar stannar kvar under lektionen utanför danssalen. Behöver barnet ha med sig en förälder in i danssalen för att känna sig trygg går det självklart bra men då är föräldern aktivt med och dansar med sitt barn. Detta är för att föräldrar som sitter inne i salen utan att delta kan uppfattas som publik och ge en otrygg känsla för resten av barn i gruppen."
+        "description": "Här testar vi på olika dansstilar i en lekfull miljö. Vi kör uppvärmningsdanser, dansövningar över golvet, dansaktiviteter och lite koreografi.<br /><br />Jag önskar att föräldrar stannar kvar under lektionen utanför danssalen. Behöver barnet ha med sig en förälder in i danssalen för att känna sig trygg går det självklart bra men då är föräldern aktivt med och dansar med sitt barn. Detta är för att föräldrar som sitter inne i salen utan att delta kan uppfattas som publik och ge en otrygg känsla för resten av barnen i gruppen."
     },
     "streetjazz": {
         "title": "Streetjazz",
@@ -34,5 +34,11 @@
         "link": "",
         "dateFormatted": "",
         "description": "För personer som har danserfarenhet sedan tidigare och kan hålla ett högre inlärningstempo."
+    },
+    "open": {
+        "title": "Öppen nivå",
+        "link": "",
+        "dateFormatted": "",
+        "description": "Alla nivåer är välkomna. Det går alltså lika bra att vara på en nybörjarnivå som på en avancerad nivå."
     }
 }

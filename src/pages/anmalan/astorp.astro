@@ -1,14 +1,35 @@
 ---
 import PageHeading from "../../components/page-heading.astro";
 import Layout from "../../layouts/main.astro";
+import danceGroups from "../../collections/dance/hgroups.json";
+import Notice from "../../components/notice/notice.astro";
 ---
 
 <Layout title="Anmälan - Dansskola i Åstorp">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading title="Anmälan - Dansskola i Åstorp" />
 
-    <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
-      <p>Anmälan är ännu inte tillgänglig men öppnar inom kort!</p>
+    <div class="z-50 flex flex-col items-stretch w-full gap-5">
+      <Notice options={danceGroups.filter((x) => x.place === "Åstorp")} place="Åstorp">
+        <Fragment slot="payment-info">
+          <p
+            class="mt-3 leading-6 dark:text-neutral-400 sm:mt-4 lg:mt-6 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+          >
+            Pris:
+          </p>
+          <p class="text-sm">4-8 år och seniorer: 895 kr</p>
+          <p class="text-sm">Barn och ungdom 9+: 1050 kr</p>
+          <p class="text-sm">Vuxna: 1350 kr</p>
+          <br />
+          <p>Faktura skickas på mail innan första kurstillfället:</p>
+          <p class="text-sm">
+            Fakturan behöver inte betalas förrän <span class="underline"
+              >efter</span
+            > första tillfället. Ifall ni provar första tillfället och inte vill
+            fortsätta så behöver ni inte betala fakturan.
+          </p>
+        </Fragment>
+      </Notice>
     </div>
   </section>
 </Layout>
