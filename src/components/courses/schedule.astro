@@ -22,6 +22,7 @@ const weekSchedule = courses.reduce(
           time: `${courseItem.from} – ${courseItem.to}`,
           location: courseItem.location,
           color: locationMap[course.place].color,
+          disabled: course.disabled,
         }));
 
       newDay = newDay.concat(additionalDayItems);

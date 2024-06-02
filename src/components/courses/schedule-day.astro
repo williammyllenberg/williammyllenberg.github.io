@@ -21,8 +21,8 @@ const { dayName, items } = Astro.props;
             </tr>
         </thead>
         <tbody>
-            {items.map((item: { time: string; name: string; location: string; color: string; }) => (
-                <ScheduleDayItem time={item.time} name={item.name} location={item.location} color={item.color} />
+            {items.map((item: { time: string; name: string; location: string; color: string; disabled?: boolean; }) => (
+                <ScheduleDayItem time={item.time} name={`${item.name} ${item.disabled ? "(Full)" : ""}`} location={item.location} color={item.color} />
             ))}
         </tbody>
     </table>

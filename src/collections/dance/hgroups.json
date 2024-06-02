@@ -123,7 +123,8 @@
 				"location": "Arena Åstorp C-hall"
 			}
 		],
-		"place": "Åstorp"
+		"place": "Åstorp",
+		"disabled": true
 	},
 	{
 		"name": "Ons 19:00-20:00 Streetjazz vuxen ca 35 år+ N/F Arena Åstorp C-hall",

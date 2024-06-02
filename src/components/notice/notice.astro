@@ -94,9 +94,13 @@ const { options, place } = Astro.props;
               {
                 options.map(
                   (opt: {
-                    value: string | number | string[] | null | undefined;
-                    name: unknown;
-                  }) => <option value={opt.value}>{opt.name}</option>,
+                    value: string;
+                    name: string;
+                    disabled?: boolean;
+                  }) => {
+                    const name = `${opt.name} ${opt.disabled ? "(Full)" : ""}`;
+                    return <option disabled={opt.disabled} value={opt.value}>{name}</option>;
+                  },
                 )
               }
             </select>
