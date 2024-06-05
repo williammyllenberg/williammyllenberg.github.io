@@ -39,7 +39,8 @@
 				"location": "Kullagymnasiet"
 			}
 		],
-		"place": "Höganäs"
+		"place": "Höganäs",
+		"disabled": true
 	},
 	{
 		"name": "Mån 19:00-19:50 Streetjazz N/F Ungdom (10 år och uppåt) – Kullagymnasiet",
