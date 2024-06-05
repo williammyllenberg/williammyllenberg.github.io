@@ -43,9 +43,9 @@
 		"disabled": true
 	},
 	{
-		"name": "Mån 19:00-19:50 Streetjazz N/F Ungdom (10 år och uppåt) – Kullagymnasiet",
-        "value": "Måndag 19:00-19:50 Streetjazz N/F Ungdom (10 år och uppåt) – Kullagymnasiet",
-		"shortName": "Streetjazz N/F Ungdom (10 år och uppåt)",
+		"name": "Mån 19:00-19:50 Streetjazz N/F Ungdom (ca 10-14 år) – Kullagymnasiet",
+        "value": "Måndag 19:00-19:50 Streetjazz N/F Ungdom (ca 10-14 år) – Kullagymnasiet",
+		"shortName": "Streetjazz N/F Ungdom (ca 10-14 år)",
 		"schedule": [
 			{
 				"day": "Måndag",
@@ -57,9 +57,9 @@
 		"place": "Höganäs"
 	},
 	{
-		"name": "Mån 19:50-20:50 Streetjazz N/F Vuxen (30 år och uppåt) – Kullagymnasiet",
-        "value": "Måndag 19:50-20:50 Streetjazz N/F Vuxen (30 år och uppåt) – Kullagymnasiet",
-		"shortName": "Streetjazz N/F Vuxen (30 år och uppåt)",
+		"name": "Mån 19:50-20:50 Streetjazz N/F Vuxen (ca 35 år+) – Kullagymnasiet",
+        "value": "Måndag 19:50-20:50 Streetjazz N/F Vuxen (ca 35 år+) – Kullagymnasiet",
+		"shortName": "Streetjazz N/F Vuxen (ca 35 år+)",
 		"schedule": [
 			{
 				"day": "Måndag",
