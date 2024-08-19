@@ -143,19 +143,5 @@
 			}
 		],
 		"place": "Åstorp"
-	},
-	{
-		"name": "Ons 20:00-21:00 Modern/contemporary 14 år+ Öppen nivå Arena Åstorp C-hall",
-        "value": "Ons 20:00-21:00 Modern/contemporary 14 år+ Öppen nivå Arena Åstorp C-hall",
-		"shortName": "Modern/contemporary 14 år+ Öppen nivå",
-		"schedule": [
-			{
-				"day": "Onsdag",
-				"from": "20:00",
-				"to": "21:00",
-				"location": "Arena Åstorp C-hall"
-			}
-		],
-		"place": "Åstorp"
 	}
 ]
