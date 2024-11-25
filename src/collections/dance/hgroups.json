@@ -72,72 +72,55 @@
 		"place": "Höganäs"
 	},
 	{
-		"name": "Ons 15:30-16:15 Seniordans ca 65 år+ Arena Åstorp C-hall",
-        "value": "Ons 15:30-16:15 Seniordans ca 65 år+ Arena Åstorp C-hall",
-		"shortName": "Seniordans ca 65 år+",
+		"name": "17:00-17:40 Barndans blandade stilar 3-5 år (895 kr/12 tillfällen)",
+        "value": "17:00-17:40 Barndans blandade stilar 3-5 år (895 kr/12 tillfällen)",
+		"shortName": "Barndans blandade stilar 3-5 år (895 kr/12 tillfällen)",
 		"schedule": [
 			{
 				"day": "Onsdag",
-				"from": "15:30",
-				"to": "16:15",
+				"from": "17:00",
+				"to": "17:40",
 				"location": "Arena Åstorp C-hall"
 			}
 		],
 		"place": "Åstorp"
 	},
 	{
-		"name": "Ons 16:30-17:10 Blandade stilar 4-5 år Arena Åstorp C-hall",
-        "value": "Ons 16:30-17:10 Blandade stilar 4-5 år Arena Åstorp C-hall",
-		"shortName": "Blandade stilar 4-5 år",
+		"name": "17:40-18:25 Dans blandade stilar 6-7 år (975kr/12 tillfällen)",
+        "value": "17:40-18:25 Dans blandade stilar 6-7 år (975kr/12 tillfällen)",
+		"shortName": "Blandade stilar 6-7 år (975kr/12 tillfällen)",
 		"schedule": [
 			{
 				"day": "Onsdag",
-				"from": "16:30",
-				"to": "17:10",
+				"from": "17:40",
+				"to": "18:25",
 				"location": "Arena Åstorp C-hall"
 			}
 		],
-		"disabled": true,
 		"place": "Åstorp"
 	},
 	{
-		"name": "Ons 17:10-17:55 Streetjazz 6-8 år N/F Arena Åstorp C-hall",
-        "value": "Ons 17:10-17:55 Streetjazz 6-8 år N/F Arena Åstorp C-hall",
-		"shortName": "Streetjazz 6-8 år N/F",
+		"name": "18:25-19:10 Streetjazz 8-10 år (975kr/12 tillfällen)",
+        "value": "18:25-19:10 Streetjazz 8-10 år (975kr/12 tillfällen)",
+		"shortName": "Streetjazz 8-10 år (975kr/12 tillfällen)",
 		"schedule": [
 			{
 				"day": "Onsdag",
-				"from": "17:10",
-				"to": "17:55",
+				"from": "18:25",
+				"to": "19:10",
 				"location": "Arena Åstorp C-hall"
 			}
 		],
-		"disabled": true,
 		"place": "Åstorp"
 	},
 	{
-		"name": "Ons 18:00-19:00 Streetjazz 9-13 år N/F Arena Åstorp C-hall",
-        "value": "Ons 18:00-19:00 Streetjazz 9-13 år N/F Arena Åstorp C-hall",
-		"shortName": "Streetjazz 9-13 år N/F",
+		"name": "19:10-20:00 Streetjazz 11-14 år (1050 kr/12 tillfällen)",
+        "value": "19:10-20:00 Streetjazz 11-14 år (1050 kr/12 tillfällen)",
+		"shortName": "Streetjazz 11-14 år (1050 kr/12 tillfällen)",
 		"schedule": [
 			{
 				"day": "Onsdag",
-				"from": "18:00",
-				"to": "19:00",
-				"location": "Arena Åstorp C-hall"
-			}
-		],
-		"place": "Åstorp",
-		"disabled": true
-	},
-	{
-		"name": "Ons 19:00-20:00 Streetjazz vuxen ca 35 år+ N/F Arena Åstorp C-hall",
-        "value": "Ons 19:00-20:00 Streetjazz vuxen ca 35 år+ N/F Arena Åstorp C-hall",
-		"shortName": "Streetjazz vuxen ca 35 år+ N/F",
-		"schedule": [
-			{
-				"day": "Onsdag",
-				"from": "19:00",
+				"from": "19:10",
 				"to": "20:00",
 				"location": "Arena Åstorp C-hall"
 			}

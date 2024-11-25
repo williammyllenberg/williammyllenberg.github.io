@@ -8,7 +8,8 @@ import icon from "astro-icon";
 export default defineConfig({
   site: 'https://movingartdance.se',
   redirects: {
-    '/anmälan/höganäs': '/anmalan/hoganas',
+    '/anmälan/höganäs': '/anmalan/viken',
+    '/anmalan/hoganas': '/anmalan/viken',
     '/anmälan/åstorp': '/anmalan/astorp'
   },
   integrations: [tailwind(), sitemap({
