@@ -10,17 +10,17 @@ import Notice from "../../components/notice/notice.astro";
     <PageHeading title="Anmälan - Dansskola i Åstorp" />
 
     <div class="z-50 flex flex-col items-stretch w-full gap-5">
-      <Notice options={danceGroups.filter((x) => x.place === "Åstorp")} place="Åstorp">
+      <Notice
+        options={danceGroups.filter((x) => x.place === "Åstorp")}
+        place="Åstorp"
+      >
         <Fragment slot="payment-info">
           <p
-            class="mt-3 leading-6 dark:text-neutral-400 sm:mt-4 lg:mt-6 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+            class="mt-5"
           >
-          <p>Faktura skickas på mail innan första kurstillfället:</p>
-          <p class="text-sm">
-            Fakturan behöver inte betalas förrän <span class="underline"
-              >efter</span
-            > första tillfället. Ifall ni provar första tillfället och inte vill
-            fortsätta så behöver ni inte betala fakturan.
+              Faktura skickas efter första tillfället. Önskar dansaren inte att
+              fortsätta efter första tillfället ska detta meddelas på mail innan
+              lektion 2.
           </p>
         </Fragment>
       </Notice>

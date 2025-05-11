@@ -1,27 +1,22 @@
 {
-    "mixedStyles_children": {
-        "title": "Blandade stilar 4-5 år",
+ 
+    "children2years": {
+        "title": "Barndans från 2 år",
         "link": "",
         "dateFormatted": "",
-        "description": "Här testar vi på olika dansstilar i en lekfull miljö. Vi kör uppvärmningsdanser, dansövningar över golvet, dansaktiviteter och lite koreografi.<br /><br />Jag önskar att föräldrar stannar kvar under lektionen utanför danssalen. Behöver barnet ha med sig en förälder in i danssalen för att känna sig trygg går det självklart bra men då är föräldern aktivt med och dansar med sitt barn. Detta är för att föräldrar som sitter inne i salen utan att delta kan uppfattas som publik och ge en otrygg känsla för resten av barnen i gruppen."
+        "description": "Här testar vi olika dansstilar i en lekfull miljö. Vi kör uppvärmningsdanser, dansövningar över golvet och dansaktiviteter. I regel tänker vi att alla dansare har med sig en anhörig som dansar med. Vid undantagsfall, om barnet vill dansa utan anhörig och det funkar bra, så går det bra att den anhöriga väntar utanför danssalen."
+    },
+    "children56years": {
+        "title": "Barndans 5-6 år",
+        "link": "",
+        "dateFormatted": "",
+        "description": "Här testar vi olika dansstilar i en lekfull miljö. Vi kör uppvärmningsdanser, dansövningar över golvet, dansaktiviteter och koreografi. Här stannar de anhöriga utanför danssalen. Vid undantagsfall, om dansaren behöver en anhörig i danssalen för att känna sig trygg, så är den anhöriga med och dansar. Detta är för att anhöriga som sitter inne i salen utan att delta kan uppfattas som publik och ge en otrygg känsla för resten av barnen i gruppen."
     },
     "streetjazz": {
         "title": "Streetjazz",
         "link": "",
         "dateFormatted": "",
         "description": "I streetjazz blandar vi jazzteknikens kickar, piruetter och hopp med stilar under samlingsbegreppet street. Här får man 'the best of both world' med jazzen som skapats genom en fusion av afroamerikansk danskultur och klassisk balett tillsammans med streeten som utvecklats utanför dansstudion på gator och i andra sociala utrymmen. Streetjazzen håller ofta ett högt tempo och är full med attityd och känsla."
-    },
-    "seniordance": {
-        "title": "Seniordans",
-        "link": "",
-        "dateFormatted": "",
-        "description": "För dig som genom dansens rörelseglädje vill träna balans, styrka och koordination. Vi testar på olika stilar såsom jazzdans, streetdans och modern dans. Alla är välkomna oavsett förutsättningar."
-    },
-    "contemporary": {
-        "title": "Contemporary",
-        "link": "",
-        "dateFormatted": "",
-        "description": "Contemporary dans är en fri och kreativ dansstil med en teknisk bas. Tekniken har sitt ursprung i den klassiska baletten och jazzdansen. I contemporary jobbar man mycket med uttryck, musikalitet, floorwork och att utforska nya sätt att röra sin kropp på."
     },
     "beginner": {
         "title": "Nybörjare (N)",
@@ -34,11 +29,5 @@
         "link": "",
         "dateFormatted": "",
         "description": "För personer som har danserfarenhet sedan tidigare och kan hålla ett högre inlärningstempo."
-    },
-    "open": {
-        "title": "Öppen nivå",
-        "link": "",
-        "dateFormatted": "",
-        "description": "Alla nivåer är välkomna. Det går alltså lika bra att vara på en nybörjarnivå som på en avancerad nivå."
     }
 }

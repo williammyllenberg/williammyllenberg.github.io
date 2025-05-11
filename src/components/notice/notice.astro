@@ -24,7 +24,7 @@ const { options, place } = Astro.props;
           <label
             for="name"
             class="block text-sm font-medium leading-6 text-gray-900"
-            >Dansarens namn *</label
+            >Dansarens namn (*)</label
           >
           <div class="mt-2">
             <input
@@ -42,7 +42,7 @@ const { options, place } = Astro.props;
           <label
             for="ssn"
             class="block text-sm font-medium leading-6 text-gray-900"
-            >Dansarens personnummer *</label
+            >Dansarens personnummer (första 6 siffror) (*)</label
           >
           <div class="mt-2">
             <input
@@ -60,7 +60,7 @@ const { options, place } = Astro.props;
           <label
             for="email"
             class="block text-sm font-medium leading-6 text-gray-900"
-            >E-postadress *</label
+            >E-postadress (*)</label
           >
           <div class="mt-2">
             <input
@@ -82,7 +82,7 @@ const { options, place } = Astro.props;
           <label
             for="kurs"
             class="block text-sm font-medium leading-6 text-gray-900"
-            >Önskad dansgrupp *</label
+            >Önskad dansgrupp (*)</label
           >
           <div class="mt-2">
             <select
@@ -99,7 +99,11 @@ const { options, place } = Astro.props;
                     disabled?: boolean;
                   }) => {
                     const name = `${opt.name} ${opt.disabled ? "(Full)" : ""}`;
-                    return <option disabled={opt.disabled} value={opt.value}>{name}</option>;
+                    return (
+                      <option disabled={opt.disabled} value={opt.value}>
+                        {name}
+                      </option>
+                    );
                   },
                 )
               }
@@ -112,7 +116,7 @@ const { options, place } = Astro.props;
           <label
             for="other"
             class="block text-sm font-medium leading-6 text-gray-900"
-            >Övrig information</label
+            >Övrig information som är bra för oss ledare att känna till?</label
           >
           <div class="mt-2">
             <textarea
@@ -125,7 +129,21 @@ const { options, place } = Astro.props;
         </div>
         <!-- <div class="sm:col-span-3">
           <div class="h-captcha" data-captcha="true"></div>
-        </div> -->
+          </div> -->
+        <p class="sm:col-span-full block text-sm font-medium leading-6 text-gray-900">
+          Dansaren får vara med på bilder / filmer som används i
+          marknadsföringssyfte? (*)
+        </p>
+        <div class="sm:col-span-full flex flex-col gap-y-0">
+          <div class="flex items-center gap-2">
+            <input type="radio" name="consent" id="yes" value="yes" required />
+            <label class="text-sm font-medium leading-6 text-gray-900" for="yes">Ja</label>
+          </div>
+          <div class="flex items-center gap-2">
+            <input type="radio" name="consent" id="no" value="no" required />
+            <label class="text-sm font-medium leading-6 text-gray-900" for="no">Nej</label>
+          </div>
+        </div>
         <div class="sm:col-span-full flex items-center">
           <button
             type="submit"

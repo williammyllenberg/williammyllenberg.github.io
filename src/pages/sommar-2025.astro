@@ -11,26 +11,24 @@ import Schedule from "../components/courses/schedule.astro";
   metaDescription="Schema och kurser för dansskola Moving Art i Höganäs & Åstorp"
 >
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
-    <PageHeading title="Dansskolans schema & kurser" description="" />
+    <PageHeading title="Sommar 2025" description="" />
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div class="border-b border-gray-900/10 pb-12">
+        <p
+        class="text-2xl mb-2 font-semibold text-neutral-800 dark:text-neutral-200"
+        >
+          Åstorp
+      </p>
+      <img src="/assets/images/events/sommar-2025/astorp.png" alt="Event 1" />
+    </div>
     <div class="border-b border-gray-900/10 pb-12">
       <p
         class="text-2xl mb-2 font-semibold text-neutral-800 dark:text-neutral-200"
       >
-        Schema
+        Höganäs
       </p>
-      <Schedule />
-    </div>
-    <p
-      class="text-2xl mt-8 font-semibold text-neutral-800 dark:text-neutral-200"
-    >
-      Kurser
-    </p>
-    <div class="z-50 grid grid-cols-1 md:grid-cols-2 gap-5 my-8">
-      <DanceStyle style={styles.children2years} />
-      <DanceStyle style={styles.children56years} />
-      <DanceStyle style={styles.streetjazz} />
-      <DanceStyle style={styles.beginner} />
-      <DanceStyle style={styles.continuation} />
+      <img src="/assets/images/events/sommar-2025/hoganas.png" alt="Event 1" />
+      <img src="/assets/images/events/sommar-2025/hoganas-2.png" alt="Event 2" />
     </div>
   </section>
 </Layout>
