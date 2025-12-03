@@ -8,8 +8,21 @@ import danceGroups from "../../collections/dance/hgroups.json";
 <Layout title="Anmälan - Dansskola i Höganäs">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading title="Anmälan - Dansskola i Höganäs" />
-    <div>
-      <p>Mer info inom kort.</p>
+    <div class="z-50 flex flex-col items-stretch w-full gap-5">
+      <Notice
+        options={danceGroups.filter((x) => x.place === "Höganäs")}
+        place="Åstorp"
+      >
+        <Fragment slot="payment-info">
+          <p
+            class="mt-5"
+          >
+              Faktura skickas efter första tillfället. Önskar dansaren inte att
+              fortsätta efter första tillfället ska detta meddelas på mail innan
+              lektion 2.
+          </p>
+        </Fragment>
+      </Notice>
     </div>
   </section>
 </Layout>

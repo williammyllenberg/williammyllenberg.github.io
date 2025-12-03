@@ -1,11 +1,11 @@
 {
     "Höganäs": {
-        "color": "bg-neutral-400"
+        "color": "bg-sky-700"
     },
     "Åstorp": {
         "color": "bg-purple-700"
     },
     "Viken": {
-        "color": "bg-sky-700"
+        "color": "bg-neutral-400"
     }
 }
