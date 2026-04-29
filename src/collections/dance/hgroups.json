@@ -1,112 +1,98 @@
 [
 	{
-		"name": "Mån 16:05-16:45 Barndans 2-4 år (895 kr/12 tillfällen) – Kullagymnasiet",
-        "value": "Måndag 16:05-16:45 Barndans 2-4 år – Kullagymnasiet",
-		"shortName": "Barndans 2-4 år (895 kr/12 tillfällen)",
+		"name": "Mån 16:00-16:55 Streetjazz 10-13 år (1195 kr/12 tillfällen) – Kullagymnasiet",
+        "value": "Måndag 16:00-16:55 Streetjazz 10-13 år – Kullagymnasiet",
+		"shortName": "Streetjazz 10-13 år (1195 kr/12 tillfällen)",
 		"schedule": [
 			{
 				"day": "Måndag",
-				"from": "16:05",
-				"to": "16:45",
+				"from": "16:00",
+				"to": "16:55",
+				"location": "Kullagymnasiet spegelsal"
+			}
+		],
+		"place": "Höganäs"
+	},
+	{
+		"name": "Mån 16:00-16:40 Barndans 3-4 år (895 kr/12 tillfällen) – Kullagymnasiet",
+        "value": "Måndag 16:00-16:40 Barndans 3-4 år – Kullagymnasiet",
+		"shortName": "Barndans 3-4 år (895 kr/12 tillfällen)",
+		"schedule": [
+			{
+				"day": "Måndag",
+				"from": "16:00",
+				"to": "16:40",
 				"location": "Kullagymnasiet gymnastiksal"
 			}
 		],
 		"place": "Höganäs"
 	},
 	{
-		"name": "Mån 16:45-17:30 Barndans 5-6 år (995 kr/12 tillfällen) – Kullagymnasiet",
-        "value": "Måndag 16:45-17:30 Barndans 5-6 år – Kullagymnasiet",
+		"name": "Mån 16:55-17:40 Barndans 5-6 år (995 kr/12 tillfällen) – Kullagymnasiet",
+        "value": "Måndag 16:55-17:40 Barndans 5-6 år – Kullagymnasiet",
 		"shortName": "Barndans 5-6 år (995 kr/12 tillfällen)",
 		"schedule": [
 			{
 				"day": "Måndag",
+				"from": "16:55",
+				"to": "17:40",
+				"location": "Kullagymnasiet spegelsal"
+			}
+		],
+		"place": "Höganäs"
+	},
+	{
+		"name": "Mån 17:40-18:30 Streetjazz 7-9 år (1095 kr/12 tillfällen) – Kullagymnasiet",
+        "value": "Måndag 17:40-18:30 Streetjazz 7-9 år – Kullagymnasiet",
+		"shortName": "Streetjazz 7-9 år (1095 kr/12 tillfällen)",
+		"schedule": [
+			{
+				"day": "Måndag",
+				"from": "17:40",
+				"to": "18:30",
+				"location": "Kullagymnasiet spegelsal"
+			}
+		],
+		"place": "Höganäs"
+	},
+	{
+		"name": "Ons 16:00-16:45 Barndans 4-6 år (995 kr/12 tillfällen) – Arena Åstorp",
+        "value": "Onsdag 16:00-16:45 Barndans 4-6 år – Arena Åstorp",
+		"shortName": "Barndans 4-6 år (995 kr/12 tillfällen)",
+		"schedule": [
+			{
+				"day": "Onsdag",
+				"from": "16:00",
+				"to": "16:45",
+				"location": "Arena Åstorp C-hallen"
+			}
+		],
+		"place": "Åstorp"
+	},
+	{
+		"name": "Ons 16:45-17:35 Streetjazz 7-9 år (1095 kr/12 tillfällen) – Arena Åstorp",
+        "value": "Onsdag 16:45-17:35 Streetjazz 7-9 år – Arena Åstorp",
+		"shortName": "Streetjazz 7-9 år (1095 kr/12 tillfällen)",
+		"schedule": [
+			{
+				"day": "Onsdag",
 				"from": "16:45",
-				"to": "17:30",
-				"location": "Kullagymnasiet spegelsal"
-			}
-		],
-		"place": "Höganäs"
-	},
-	{
-		"name": "Mån 17:30-18:15 Streetjazz 7-9 år nyb/forts (995 kr/12 tillfällen) – Kullagymnasiet",
-        "value": "Måndag 17:30-18:15 Streetjazz 7-9 år nyb/forts – Kullagymnasiet",
-		"shortName": "Streetjazz 7-9 år nyb/forts (995 kr/12 tillfällen)",
-		"schedule": [
-			{
-				"day": "Måndag",
-				"from": "17:30",
-				"to": "18:15",
-				"location": "Kullagymnasiet spegelsal"
-			}
-		],
-		"place": "Höganäs"
-	},
-	{
-		"name": "Mån 16:00-16:45 Streetjazz 10-13 år nyb/forts (995 kr/12 tillfällen) – Kullagymnasiet",
-        "value": "Måndag 16:00-16:45 Streetjazz 10-13 år nyb/forts – Kullagymnasiet",
-		"shortName": "Streetjazz 10-13 år nyb/forts (995 kr/12 tillfällen)",
-		"schedule": [
-			{
-				"day": "Måndag",
-				"from": "16:00",
-				"to": "16:45",
-				"location": "Kullagymnasiet spegelsal"
-			}
-		],
-		"place": "Höganäs"
-	},
-	{
-		"name": "16:00-16:40 Barndans från 2 år (895 kr/12 tillfällen)",
-        "value": "16:00-16:40 Barndans från 2 år (895 kr/12 tillfällen)",
-		"shortName": "Barndans från 2 år (895 kr/12 tillfällen)",
-		"schedule": [
-			{
-				"day": "Onsdag",
-				"from": "16:00",
-				"to": "16:40",
-				"location": "Arena Åstorp C-hall"
+				"to": "17:35",
+				"location": "Arena Åstorp C-hallen"
 			}
 		],
 		"place": "Åstorp"
 	},
 	{
-		"name": "16:40-17:25 Barndans 5-6 år (995 kr/12 tillfällen)",
-        "value": "16:40-17:25 Barndans 5-6 år (995 kr/12 tillfällen)",
-		"shortName": "Barndans 5-6 år (995 kr/12 tillfällen)",
+		"name": "Ons 17:35-18:30 Streetjazz 10-16 år (1195 kr/12 tillfällen) – Arena Åstorp",
+        "value": "Onsdag 17:35-18:30 Streetjazz 10-16 år – Arena Åstorp",
+		"shortName": "Streetjazz 10-16 år (1195 kr/12 tillfällen)",
 		"schedule": [
 			{
 				"day": "Onsdag",
-				"from": "16:40",
-				"to": "17:25",
-				"location": "Arena Åstorp C-hall"
-			}
-		],
-		"place": "Åstorp"
-	},
-	{
-		"name": "17:25-18:10 Streetjazz 7-9 år nyb/forts (995 kr/12 tillfällen)",
-        "value": "17:25-18:10 Streetjazz 7-9 år nyb/forts (995 kr/12 tillfällen)",
-		"shortName": "Streetjazz 7-9 år nyb/forts (995 kr/12 tillfällen)",
-		"schedule": [
-			{
-				"day": "Onsdag",
-				"from": "17:25",
-				"to": "18:10",
-				"location": "Arena Åstorp C-hall"
-			}
-		],
-		"place": "Åstorp"
-	},
-	{
-		"name": "18:10-19:00 Streetjazz 10-15 år nyb/forts(1095 kr/12 tillfällen)",
-        "value": "18:10-19:00 Streetjazz 10-15 år nyb/forts(1095 kr/12 tillfällen)",
-		"shortName": "Streetjazz 10-15 år nyb/forts(1095 kr/12 tillfällen)",
-		"schedule": [
-			{
-				"day": "Onsdag",
-				"from": "18:10",
-				"to": "19:00",
-				"location": "Arena Åstorp C-hall"
+				"from": "17:35",
+				"to": "18:30",
+				"location": "Arena Åstorp C-hallen"
 			}
 		],
 		"place": "Åstorp"

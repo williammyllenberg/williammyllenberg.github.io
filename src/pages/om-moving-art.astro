@@ -9,45 +9,80 @@ import Layout from "../layouts/main.astro";
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
       title="Om dansskolan Moving Art"
-      description="Moving Art Dance School är en dansskola som startades sommaren 2024. Hos Moving Art står utveckling, rörelseglädje och gemenskap i fokus."
+      description="Moving Art Dance School är en dansskola som grundades sommaren 2024. Hos Moving Art står utveckling, rörelseglädje och gemenskap i fokus."
       image="/assets/images/icons/moving_art_logo_dark.png"
     />
-    <br />
+    <div class="relative my-6">
+      <img
+        src="/assets/images/amanda/cropped.jpg"
+        alt="Amanda Mattsson"
+        class="relative z-30 w-full rounded-xl"
+      />
+      <span
+        class="absolute bottom-2 right-3 z-40 text-xs text-white/90 drop-shadow"
+      >
+        Ateljé Lena Photography
+      </span>
+    </div>
     <p
       class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Jag som driver Moving Art heter Amanda Mattsson och är 29 år gammal. Jag
-      älskar dans och möten med människor och jag anser att alla kan och mår bra
-      av att dansa om de får göra det efter sina egna förutsättningar och
-      önskningar.
+      Jag som driver Moving Art heter Amanda Mattsson och är född 1996. Mitt
+      första möte med dansen skedde genom gymnastiken, där jag var truppgymnast.
+      När jag var 9 år började jag dansa på Dansfabriken i Ängelholm, och sedan
+      dess har jag tagit dansklasser på flera ställen i Skåne, bland annat på
+      Malmö Dansakademi och Danshuset i Helsingborg. Under 2023/2024
+      vidareutbildade jag mig inom dans på den ettåriga utbildningen
+      Danseuddannelsen i Köpenhamn.
     </p>
     <br />
     <p
       class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Mitt första möte med dansen var genom gymnastikens värld som truppgymnast.
-      När jag var 9 år började jag dansa på Dansfabriken i Ängelholm och sedan
-      dess har jag tagit dansklasser på många ställen runt om i Skåne, bland
-      annat på Malmö Dansakademi och på Danshuset i Helsingborg. 2023/24
-      utbildade jag mig vidare i dans på en ettårig dansutbildning,
-      Danseuddanelsen i Köpenhamn.
+      Jag ledde mina första dansklasser som 16-åring och har undervisat både
+      barn och seniorer i olika stilar, såsom jazz, balett och street. Jag har
+      också arbetat med deltagare med olika funktionsvariationer och psykisk
+      ohälsa, och 2022 utbildade jag mig till Dans för hälsa instruktör.
     </p>
     <br />
     <p
       class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Jag har arbetat som dansledare i drygt 10 år och undervisat allt från barn
-      till seniorer i olika stilar såsom jazz, balett och street. Jag har även
-      undervisat personer med olika funktionsvariationer och psykisk ohälsa. Som
-      ledare försöker jag att möta och se varje individ som kommer och dansar
-      hos mig. Min önskan är att alla ska känna sig välkomna och sedda.
+      Vårterminen 2026 fick jag ett utökat engagemang på Dansfabriken i
+      Ängelholm genom rollen som samordnare för social hållbarhet. Där arbetar
+      jag med dansklasser och projekt som främjar både psykisk och fysisk hälsa,
+      bland annat för seniorer och personer som lever med psykisk ohälsa.
+    </p>
+    <br />
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      År 2024 startade jag dansskolan Moving Art Dance School för att kunna
+      sprida dansglädje till fler platser! År 2025 anslöt sig Bella Svensson
+      till Moving Art Dance School, och sedan dess leder vi undervisningen
+      tillsammans. Jag kan inte tänka mig en bättre kollega!
+    </p>
+    <br />
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Vår vision är att dansarna ska utvecklas både inom dansen och som
+      individer, i en trygg och positiv miljö där alla känner sig välkomna och
+      sedda.
     </p>
     <br />
     <p
       class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
       Hoppas att vi ses i danssalen! Tveka inte att höra av dig om du har frågor
-      eller funderingar. Mvh Amanda Mattsson
+      eller funderingar.
+    </p>
+    <br />
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Med vänliga hälsningar,<br />
+      Amanda Mattsson
     </p>
 
     <h2
@@ -58,9 +93,10 @@ import Layout from "../layouts/main.astro";
     <div class="px-5 py-10">
       {
         experiences.map((experience, loop) => {
+          const isLast = loop === experiences.length - 1;
           return (
             <>
-              {loop == 0 || loop == 1 ? (
+              {!isLast ? (
                 <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
                   <AboutExperience
                     dates={experience.dates}
@@ -85,7 +121,7 @@ import Layout from "../layouts/main.astro";
       }
     </div>
     <h2
-      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+      class="mt-10 mb-2 text-2xl font-bold lg:mt-14 sm:mt-12 dark:text-neutral-200"
     >
       Kul att veta
     </h2>
@@ -95,11 +131,57 @@ import Layout from "../layouts/main.astro";
         <li>Jag ÄLSKAR chips</li>
         <li>Jag har en storpudel som heter Ozzy</li>
       </ul>
-
-      <img
-        src="/assets/images/amanda/amanda_ozzy.jpeg"
-        class="relative z-30 w-full my-10 rounded-xl"
-      />
     </div>
+
+    <h2
+      class="mt-10 mb-2 text-2xl font-bold lg:mt-14 sm:mt-12 dark:text-neutral-200"
+    >
+      Bella Svensson
+    </h2>
+    <div class="relative my-6">
+      <img
+        src="/assets/images/bella/ateljelena-df-srgb-41-1.jpg"
+        alt="Bella Svensson"
+        class="relative z-30 w-full rounded-xl"
+      />
+      <span
+        class="absolute bottom-2 right-3 z-40 text-xs text-white/90 drop-shadow"
+      >
+        Ateljé Lena Photography
+      </span>
+    </div>
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Jag heter Bella Svensson och är född 2008. Jag har dansat större delar av
+      mitt liv och började på Dansfabriken i Ängelholm med min syster 2015.
+      Eftersom jag är lillasyster har jag alltid velat dansa precis som min
+      syster och har genom det hittat kärleken för dansen. Jag har dansat flera
+      olika stilar som bland annat contemporary, lyrisk jazz, street och
+      modern.
+    </p>
+    <br />
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Jag gick lärlingsprogrammet på Dansfabriken i Ängelholm HT-23 till HT-24
+      och har sedan dess undervisat på Dansfabriken. VT2025 började jag
+      undervisa på Moving Art Dance School. Jag blev ledare för att kunna
+      sprida vidare dansglädjen! Mitt mål är att mina elever ska känna sig
+      trygga och självsäkra för det är då man har som roligast.
+    </p>
+    <br />
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Hoppas vi ses i danssalen!
+    </p>
+    <br />
+    <p
+      class="text-sm leading-6 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Med vänliga hälsningar,<br />
+      Bella Svensson
+    </p>
   </section>
 </Layout>
